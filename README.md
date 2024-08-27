@@ -21,9 +21,17 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 # 📌 Sosyal Medyalar:
-![Ekran Görüntüsü (384)](https://github.com/user-attachments/assets/888cc7cb-7d11-4ffb-a14a-ba22b09e0536)
+![Ekran Görüntüsü (393)](https://github.com/user-attachments/assets/425f7c93-8354-4729-bce6-e3eb878cd553)
 
 ___________________________________________________________________________________________________
 # ✅ Projdem Kullandığım Cookie ile Kimlik Doğrulama Sayesinde eğer giriş ekranın kimlik doğrulanırsa bu tarayıcının çerezlerine kaydedilir ve böylece kullanıcı daha sonrasında kimlik doğrulama gerektirecek sayfalarda gezinmek istediğinde taracıyıdaki oturum açma bilgilerinin tutulduğu cookies(çerezler) sayesinde tekrar oturum açmadan gezinebilecek.Eğer kimlik doğrulanmazsa tekrar Login sayfasına yönlendiriliyor.
 ___________________________________________________________________________________________________
+# 📍 Employees
+![Ekran Görüntüsü (386)](https://github.com/user-attachments/assets/e83aaad0-b174-425e-ac88-7c1434efd403)
+![Ekran Görüntüsü (387)](https://github.com/user-attachments/assets/e02ac11c-393a-4570-89e9-1235594ab4d1)
+___________________________________________________________________________________________________
+# 📍 Departments
+![Ekran Görüntüsü (388)](https://github.com/user-attachments/assets/8a70db16-9fc7-4448-b064-f885fac72f8e)
+![Ekran Görüntüsü (389)](https://github.com/user-attachments/assets/8036c8e1-7803-41c8-a618-3acece53808a)
+![Ekran Görüntüsü (390)](https://github.com/user-attachments/assets/f1f8fefb-d267-4048-8774-d2076fd9e903)
 
