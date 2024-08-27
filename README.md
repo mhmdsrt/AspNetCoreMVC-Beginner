@@ -24,6 +24,6 @@ ________________________________________________________________________________
 ![Ekran Görüntüsü (384)](https://github.com/user-attachments/assets/888cc7cb-7d11-4ffb-a14a-ba22b09e0536)
 
 ___________________________________________________________________________________________________
-# ✅ Projdem Kullandığım Cookie ile Kimlik Doğrulama Sayesinde eğer giriş ekranın kimlik doğrulanırsa bu tarayıcının çerez'lerine kaydedilir ve böylece kullanıcı daha sonrasında kimlik doğrulama gerektirecek sayfalarda gezinmek istediğinde  taracıyıdaki oturum açma bilgilerinin tutulduğu cookies(çerezler) sayesinde tekrar oturum açmadan gezinebilecek.
-
+# ✅ Projdem Kullandığım Cookie ile Kimlik Doğrulama Sayesinde eğer giriş ekranın kimlik doğrulanırsa bu tarayıcının çerezlerine kaydedilir ve böylece kullanıcı daha sonrasında kimlik doğrulama gerektirecek sayfalarda gezinmek istediğinde taracıyıdaki oturum açma bilgilerinin tutulduğu cookies(çerezler) sayesinde tekrar oturum açmadan gezinebilecek.Eğer kimlik doğrulanmazsa tekrar Login sayfasına yönlendiriliyor.
+___________________________________________________________________________________________________
 
