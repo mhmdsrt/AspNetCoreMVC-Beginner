@@ -29,6 +29,8 @@ ________________________________________________________________________________
 # 📍 Employees
 ![Ekran Görüntüsü (386)](https://github.com/user-attachments/assets/e83aaad0-b174-425e-ac88-7c1434efd403)
 ![Ekran Görüntüsü (387)](https://github.com/user-attachments/assets/e02ac11c-393a-4570-89e9-1235594ab4d1)
+![Ekran Görüntüsü (394)](https://github.com/user-attachments/assets/720f2ee8-af52-40c5-8a07-a94e621b6ec3)
+
 ___________________________________________________________________________________________________
 # 📍 Departments
 ![Ekran Görüntüsü (388)](https://github.com/user-attachments/assets/8a70db16-9fc7-4448-b064-f885fac72f8e)
