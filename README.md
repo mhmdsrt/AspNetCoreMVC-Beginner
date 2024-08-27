@@ -3,7 +3,7 @@
 # 💎 MVC
 # 💎 Login İşlemi 
 # 💎 Alert - Silme İşlemi İçin Onay Alma Mesaj 
-# 💎 EntityFramework (Code First) - CRUD
+# 💎 EntityFramework (Code First) - Migration Kullanımı - CRUD
 # 💎 ViewBag 
 # 💎 DropDownList 
 # 💎 View'ler arası veri transferi
