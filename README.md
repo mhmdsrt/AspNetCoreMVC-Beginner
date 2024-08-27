@@ -17,7 +17,7 @@
 # 💎 Html Tarafında Validation
 ___________________________________________________________________________________________________
 # 📌 Employee ve Department sayfalarına sadece admin girebiliyor.
-![Ekran Görüntüsü (383)](https://github.com/user-attachments/assets/7bd11efb-d7a1-4eff-9d84-28611af2dd71)
+![Ekran Görüntüsü (392)](https://github.com/user-attachments/assets/9e77cd2a-7a2e-45d2-95c4-901c4d351125)
 
 ___________________________________________________________________________________________________
 # 📌 Sosyal Medyalar:
