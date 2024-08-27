@@ -17,11 +17,13 @@
 # 💎 Html Tarafında Validation
 ___________________________________________________________________________________________________
 # 📌 Employee ve Department sayfalarına sadece admin girebiliyor.
-![Ekran Görüntüsü (383)](https://github.com/user-attachments/assets/eaa2601d-940b-4c14-841d-a03360c0cfbf)
+![Ekran Görüntüsü (383)](https://github.com/user-attachments/assets/7bd11efb-d7a1-4eff-9d84-28611af2dd71)
+
 ___________________________________________________________________________________________________
 # 📌 Sosyal Medyalar:
-![Ekran Görüntüsü (384)](https://github.com/user-attachments/assets/23d55e54-6b29-4199-91f6-294e8d78a0ef)
+![Ekran Görüntüsü (384)](https://github.com/user-attachments/assets/888cc7cb-7d11-4ffb-a14a-ba22b09e0536)
+
 ___________________________________________________________________________________________________
-# ✅ Projdem Kullandığım Cookie ile Kimlik Doğrulama Sayesinde eğer giriş ekranın kimlik doğrulanırsa bu tarayıcının çerez'lerine kaydedilir ve böylece kullanıcı daha sonrasında kimlik doğrulama gerektirecek sayfalarda gezinmek istediğinde
-# taracıyıdaki oturum açma bilgilerinin tutulduğu cookies(çerezler) sayesinde tekrar oturum açmadan gezinebilecek.
+# ✅ Projdem Kullandığım Cookie ile Kimlik Doğrulama Sayesinde eğer giriş ekranın kimlik doğrulanırsa bu tarayıcının çerez'lerine kaydedilir ve böylece kullanıcı daha sonrasında kimlik doğrulama gerektirecek sayfalarda gezinmek istediğinde  taracıyıdaki oturum açma bilgilerinin tutulduğu cookies(çerezler) sayesinde tekrar oturum açmadan gezinebilecek.
+
 
