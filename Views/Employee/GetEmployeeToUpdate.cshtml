@@ -1,0 +1,35 @@
+﻿@model AspNetCoreProject1.Models.Employee
+
+@{
+    ViewData["Title"] = "GetEmployeeToUpdate";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateEmployee", "Employee", FormMethod.Post))
+{
+   <div>
+        <label>Employee ID</label>
+        @Html.TextBoxFor(m => m.EmployeeID, new { @class = "form-control", @readonly = "readonly" })
+   </div>
+    <div>
+        <label>Employee FirstName</label>
+        @Html.TextBoxFor(m => m.EmployeeFirstName, new { @class = "form-control",@required="",@maxlength=25,@minlength=3})
+    </div>
+    <div>
+        <label>Employee SurName</label>
+        @Html.TextBoxFor(m => m.EmployeeSurName, new { @class = "form-control", @required = "", @maxlength = 25, @minlength = 3 })
+    </div>
+    <div>
+        <label>Employee City</label>
+        @Html.TextBoxFor(m => m.EmployeeCity, new { @class = "form-control", @required = "", @maxlength = 25, @minlength = 3 })
+    </div>
+    <div>
+        <label>Department</label>
+        @Html.DropDownListFor(m => m.DepartmentID, (List<SelectListItem>)ViewBag.selectListDepartment,new {@class="form-control"})
+    </div>
+    <div>
+        <button class="btn btn-warning" style="color:white;margin-top:10px;">Update</button>
+    </div>
+}
+
+

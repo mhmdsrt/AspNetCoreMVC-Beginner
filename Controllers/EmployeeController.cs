@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections.Generic;
 
 namespace AspNetCoreProject1.Controllers
@@ -55,6 +56,36 @@ namespace AspNetCoreProject1.Controllers
                 context.Employees.Remove(employeeToDelete);
                 context.SaveChanges();
 
+            }
+            return RedirectToAction("GetAllEmployee");
+        }
+
+        public IActionResult GetEmployeeToUpdate(int id)
+        {
+            var employeeToUpdate = context.Employees.Find(id);
+
+            List<SelectListItem> selectListDepartment = (from x in context.Departments
+                                                        select new SelectListItem
+                                                        {
+                                                            Value = x.DepartmentID.ToString(),
+                                                            Text = x.DepartmentName
+                                                        }).ToList();
+            ViewBag.selectListDepartment = selectListDepartment;
+
+            return View(employeeToUpdate);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateEmployee(Employee entity)
+        {
+            var employeeToUpdate = context.Employees.Find(entity.EmployeeID);
+            if (employeeToUpdate != null)
+            {
+                employeeToUpdate.EmployeeFirstName = entity.EmployeeFirstName;
+                employeeToUpdate.EmployeeSurName = entity.EmployeeSurName;
+                employeeToUpdate.EmployeeCity = entity.EmployeeCity;
+                employeeToUpdate.DepartmentID = entity.DepartmentID;
+                context.SaveChanges();
             }
             return RedirectToAction("GetAllEmployee");
         }
