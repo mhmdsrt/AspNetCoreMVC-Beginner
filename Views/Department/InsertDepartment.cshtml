@@ -1,0 +1,22 @@
+﻿@model AspNetCoreProject1.Models.Department
+
+@{
+    ViewData["Title"] = "InsertDepartment";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@using (Html.BeginForm("InsertDepartment", "Department", FormMethod.Post))
+{
+    <div style="margin-top:10px;">
+        <label><strong>Department Name</strong></label>
+    </div>
+
+    <div style="margin-top:10px;">
+        @Html.TextBoxFor(m => m.DepartmentName, new { @class = "form-control", required = "", maxlength = 25, minlength = 3 })
+    </div>
+
+    <div style="margin-top:10px;">
+        <button class="btn btn-success" style="margin-top:12px;">Insert</button>
+    </div>
+}
+

@@ -1,0 +1,51 @@
+﻿@model List<AspNetCoreProject1.Models.Department>
+
+@{
+    ViewData["Title"] = "GetAllDepartment";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div style="margin-top:5px;">
+    <a href="/Department/InsertDepartment" class="btn btn-primary"  >New Department</a>
+</div>
+<table class="table table-bordered" style="margin-top:10px;">
+    <tr>
+        <th>ID</th>
+        <th>DepartmentName</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var d in Model)
+    {
+        <tr>
+            <td>@d.DepartmentID</td>
+            <td>@d.DepartmentName</td>
+            <td>
+                @Html.ActionLink(
+                    "Delete",
+                    "DeleteDepartment",
+                    "Department",
+                    new{id=@d.DepartmentID},
+                    new {
+                        onclick="return confirm('Gerçekten Silmek istiyor musunuz?');",
+                        @class="btn btn-danger"
+
+
+                    }
+                          
+                    
+                )
+               
+            </td>
+
+            <td>
+                <a href="/Department/GetDepartmentToUpdate/@d.DepartmentID" class="btn btn-outline-light" style="background-color:paleturquoise">Update</a>
+            </td>
+            <td>
+                <a href="/Department/GetDetail/@d.DepartmentID" class="btn btn-outline-light" style="background-color:yellowgreen">Detail</a>
+            </td>
+        </tr>
+    }
+
+</table>
+

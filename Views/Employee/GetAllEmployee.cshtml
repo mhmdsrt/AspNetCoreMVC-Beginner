@@ -1,0 +1,55 @@
+﻿@model List<AspNetCoreProject1.Models.Employee>
+
+@{
+    ViewData["Title"] = "GetAllEmployee";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div style="margin-top:5px;">
+    <a href="/Employee/InsertEmployee" class="btn btn-primary" >New Employee</a>
+</div>
+
+<table class="table table-bordered" style="margin-top:10px;">
+
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Sur Name</th>
+        <th>City</th>
+        <th>Department Name</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.EmployeeID</td>
+            <td>@e.EmployeeFirstName</td>
+            <td>@e.EmployeeSurName</td>
+            <td>@e.EmployeeCity</td>
+            <td>@e.Department.DepartmentName</td>
+            <td>
+                
+                @Html.ActionLink(
+                "Delete",
+                "DeleteEmployee",
+                "Employee",
+                new {id=@e.EmployeeID},
+                new
+                {
+                  onclick="return confirm('Gerçekten Silmek istiyor musunuz?');",
+                  @class="btn btn-danger"
+                }
+
+                    
+                )
+            </td>
+
+            <td>
+                <a href="#" class="btn btn-outline-light" style="background-color:paleturquoise">Update</a>
+            </td>
+        </tr>
+    }
+
+</table>
+

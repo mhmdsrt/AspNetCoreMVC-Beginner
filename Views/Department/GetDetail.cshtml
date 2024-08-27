@@ -1,0 +1,28 @@
+﻿@model List<AspNetCoreProject1.Models.Employee>
+
+@{
+    ViewData["Title"] = "GetDetail";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<h1>@ViewBag.DepartmentName</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Department</th>
+        <th>Employee ID</th>
+        <th>Employee FirstName</th>
+        <th>Employee SurName</th>
+        <th>Employee City</th>
+    </tr>
+
+    @foreach(var e in Model)
+    {
+        <tr>
+            <td>@e.Department.DepartmentName</td>
+            <td>@e.EmployeeID</td>
+            <td>@e.EmployeeFirstName</td>
+            <td>@e.EmployeeSurName</td>
+            <td>@e.EmployeeCity</td>
+        </tr>
+    }
+</table>
+
