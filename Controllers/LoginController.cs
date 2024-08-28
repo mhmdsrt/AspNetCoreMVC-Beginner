@@ -47,7 +47,7 @@ namespace AspNetCoreProject1.Controllers
 				
 				var claimsPrincipal = new ClaimsPrincipal(identity); // Kimlik doğrulama bilgilerini ve yetkilerini temsil eder.
 
-				HttpContext.SignInAsync(claimsPrincipal); // Parametre olarak aldığı "claimsPrincipal" kimlik bilgilerini doğrulanmış olarak işaretler ve tarayıcı bunu cookie(çerez) olarak kaydeder.
+				await HttpContext.SignInAsync(claimsPrincipal); // Parametre olarak aldığı "claimsPrincipal" kimlik bilgilerini doğrulanmış olarak işaretler ve tarayıcı bunu cookie(çerez) olarak kaydeder.
 														  // Böylece sitenin diğer kimlik doğrulama gerektiren sayfalarına tekrar giriş yapmasına gerek kalmadan tarayıcıda bulunan cookie(çerez) sayesinde dolaşabiliyor.
 				return RedirectToAction("GetAllEmployee", "Employee");
 			}
