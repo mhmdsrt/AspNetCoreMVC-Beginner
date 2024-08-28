@@ -39,5 +39,5 @@ ________________________________________________________________________________
 ![Ekran Görüntüsü (397)](https://github.com/user-attachments/assets/1d85b209-88aa-45fe-b11e-df8d29ea2f92)
 ![Ekran Görüntüsü (389)](https://github.com/user-attachments/assets/8036c8e1-7803-41c8-a618-3acece53808a)
 ![Ekran Görüntüsü (390)](https://github.com/user-attachments/assets/f1f8fefb-d267-4048-8774-d2076fd9e903)
-![Ekran Görüntüsü (396)](https://github.com/user-attachments/assets/791cbc45-3ba9-474a-9f25-d0d39ae6a24a)
+![Ekran Görüntüsü (398)](https://github.com/user-attachments/assets/9696bae9-2992-4b6c-b5ce-6acd7221ca11)
 
