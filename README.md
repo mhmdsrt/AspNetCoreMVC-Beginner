@@ -32,11 +32,12 @@ ________________________________________________________________________________
 
 ![Ekran Görüntüsü (387)](https://github.com/user-attachments/assets/e02ac11c-393a-4570-89e9-1235594ab4d1)
 # HTML tarafında " @required - @maxlength - @minlegth " ile Validation kontrollerimiz. Eğer doğrulama kontrolleri sağlanmazsa butona basılsa dahi form gönderilmiyor. 3 Karakterden az 25 karakter fazla veya boş veri ile güncelleme yapılamıyor.
-![Ekran Görüntüsü (394)](https://github.com/user-attachments/assets/720f2ee8-af52-40c5-8a07-a94e621b6ec3)
+![Ekran Görüntüsü (395)](https://github.com/user-attachments/assets/e307a8b7-d343-4744-9085-458459765b60)
 
 ___________________________________________________________________________________________________
 # 📍 Departments
 ![Ekran Görüntüsü (388)](https://github.com/user-attachments/assets/8a70db16-9fc7-4448-b064-f885fac72f8e)
 ![Ekran Görüntüsü (389)](https://github.com/user-attachments/assets/8036c8e1-7803-41c8-a618-3acece53808a)
 ![Ekran Görüntüsü (390)](https://github.com/user-attachments/assets/f1f8fefb-d267-4048-8774-d2076fd9e903)
+![Ekran Görüntüsü (396)](https://github.com/user-attachments/assets/791cbc45-3ba9-474a-9f25-d0d39ae6a24a)
 
