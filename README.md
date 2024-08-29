@@ -15,7 +15,7 @@
 # 💎 @using (@Html.BeginForm()) yapısı
 # 💎 Layout - @RenderBody() yapısı
 # 💎 Html Tarafında Validation
-# 💎 Include() Metodu - İlişkiler Verileri Listelemek için
+# 💎 Include() Metodu - İlişkili Verileri Listelemek için
 ___________________________________________________________________________________________________
 # 📌 Employee ve Department sayfalarına sadece admin girebiliyor.
 ![Ekran Görüntüsü (392)](https://github.com/user-attachments/assets/9e77cd2a-7a2e-45d2-95c4-901c4d351125)
