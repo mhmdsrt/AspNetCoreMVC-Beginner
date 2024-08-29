@@ -17,7 +17,7 @@ namespace AspNetCoreProject1.Controllers
      
         public IActionResult GetAllEmployee()
         {
-            var getAllEmployee = context.Employees.Include(m => m.Department).ToList();
+            var getAllEmployee = context.Employees.Include(m => m.Department).ToList(); // Include() metodu ilişkili verilerin yüklenmesini sağlar.
             return View(getAllEmployee);
         }
 
