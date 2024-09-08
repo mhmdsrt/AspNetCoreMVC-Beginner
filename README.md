@@ -5,7 +5,7 @@
 ## 💎 Authorize - Authentication 
 ## 💎 Asenkron Programlama -Async Metot Kullanımı
 ## 💎 Alert - Silme İşlemi İçin Onay Alma Mesaj 
-## 💎 EntityFramework (Code First) - Migration Kullanımı - CRUD
+## 💎 EntityFramework (Code First) - Migration Kullanımı - CRUD - LinQ
 ## 💎 ViewBag 
 ## 💎 DropDownList 
 ## 💎 View'ler arası veri transferi
